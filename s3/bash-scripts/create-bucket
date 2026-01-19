@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+if [ -z "$1" ]; then
+    echo "No Bucket Name Provided e.g. ./bucket my-bucket-name"
+    exit 1
+fi
+
+aws s3api create-bucket --bucket $1
