@@ -1,0 +1,97 @@
+{
+    "Contents": [
+        {
+            "Key": "files/temp-file-1.txt",
+            "LastModified": "2026-01-19T15:02:50+00:00",
+            "ETag": "\"88c16a56754e0f17a93d269ae74dde9b\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "files/temp-file-2.txt",
+            "LastModified": "2026-01-19T15:02:49+00:00",
+            "ETag": "\"db06069ef1c9f40986ffa06db4fe8fd7\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "files/temp-file-3.txt",
+            "LastModified": "2026-01-19T15:02:50+00:00",
+            "ETag": "\"95227e10e2c33771e1c1379b17330c86\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "files/temp-file-4.txt",
+            "LastModified": "2026-01-19T15:02:50+00:00",
+            "ETag": "\"601120837709ea5ee34dadddf5289113\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "files/temp-file-5.txt",
+            "LastModified": "2026-01-19T15:02:50+00:00",
+            "ETag": "\"657c74cf3521f7760f9203ac7d9d2cdb\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "files/temp-file-6.txt",
+            "LastModified": "2026-01-19T15:02:50+00:00",
+            "ETag": "\"0059813e3c0ba105c27538c0010cf6b0\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 15,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        },
+        {
+            "Key": "newFile.txt",
+            "LastModified": "2026-01-20T10:20:06+00:00",
+            "ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+            "ChecksumAlgorithm": [
+                "CRC64NVME"
+            ],
+            "Size": 0,
+            "StorageClass": "STANDARD",
+            "Owner": {
+                "ID": "ed22abde4e9297f117f5626c401ac0ae9e407896266672a53a44d74decb28d3c"
+            }
+        }
+    ],
+    "RequestCharged": null,
+    "Prefix": ""
+}

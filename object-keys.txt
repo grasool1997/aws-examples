@@ -1,0 +1,7 @@
+files/temp-file-1.txt
+files/temp-file-2.txt
+files/temp-file-3.txt
+files/temp-file-4.txt
+files/temp-file-5.txt
+files/temp-file-6.txt
+newFile.txt

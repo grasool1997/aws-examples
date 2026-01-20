@@ -1,1 +1,37 @@
 #! /usr/bin/env bash
+
+echo "== sync"
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "No Bucket Name Provided e.g. ./sync my-bucket-name"
+    exit 1
+fi
+
+if [ -z "$2" ]; then
+    echo "No File Name Prefix Provided e.g. ./sync my-bucket-name file-prefix"
+    exit 1
+fi
+
+BUCKET_NAME=$1
+FILE_NAME_PREFIX=$2
+OUTPUT_DIRECTORY="/tmp/temp-files"
+
+rm -r $OUTPUT_DIRECTORY
+
+mkdir -p $OUTPUT_DIRECTORY
+
+NUM_FILES=$(($RANDOM % 6 + 5))
+
+for ((i=1; i<=NUM_FILES; i++)); do
+    FILE_NAME="$FILE_NAME_PREFIX-$i.txt"
+    FILE_PATH="$OUTPUT_DIRECTORY/$FILE_NAME"
+    echo "Creating file: $FILE_PATH"
+    dd if=/dev/urandom of=$FILE_PATH bs=1024 count=$((RANDOM % 1024 + 1)) 2> /dev/null
+    echo "This is file $i" > $FILE_PATH
+done
+
+tree $OUTPUT_DIRECTORY
+
+aws s3 sync $OUTPUT_DIRECTORY s3://$BUCKET_NAME/files
